@@ -12,7 +12,7 @@ export default function Game() {
   const hintCells=state.hintsEnabled&&activeVal?getHintCells(state.grid,activeVal):[];
   return(
     <div className="game-wrapper">
-     <img src={BackgroundImage} alt='An picture' className="backgroundImage"/>
+     <img src={BackgroundImage} alt='An asset' className="backgroundImage"/>
 <div className="game-container">
         <Header
           timer={state.timer}
