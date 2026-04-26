@@ -27,3 +27,4 @@ export default function Background() {
     </div>
   );
 }
+{/*I could have used this but instead i used the assets background image*/}

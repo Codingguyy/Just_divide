@@ -1,6 +1,5 @@
 import { useGameState } from '../hooks/useGameState';
 import { getHintCells } from '../utils/gameLogic';
-import Background from './Background';
 import Header from './Header';
 import Grid from './Grid';
 import SidePanel from './SidePanel';
@@ -13,7 +12,7 @@ export default function Game() {
   const hintCells=state.hintsEnabled&&activeVal?getHintCells(state.grid,activeVal):[];
   return(
     <div className="game-wrapper">
-     <img src={BackgroundImage} alt='An image' className="backgroundImage"/>
+     <img src={BackgroundImage} alt='An picture' className="backgroundImage"/>
 <div className="game-container">
         <Header
           timer={state.timer}
