@@ -84,3 +84,7 @@ Deploy the `build/` folder to **Vercel**, Netlify, or any static host.
 ---
 
 Built for Eklavya Game Dev Task — ReactJS implementation of Just Divide Kid Mode.
+git hub repo:-
+https://github.com/Codingguyy/Just_divide
+vercel live link:-
+https://just-divide-q6zc.vercel.app
