@@ -1,0 +1,22 @@
+.background {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.background__bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--color-bubble);
+}
+.backgroundImage{
+  height : 100%;
+  width : 100%;
+  object-fit : cover;
+  position : absolute;
+  overflow : hidden;
+  z-index : 0;
+  pointer-events : none;
+}
