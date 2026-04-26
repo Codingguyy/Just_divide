@@ -6,6 +6,7 @@ import SidePanel from './SidePanel';
 import GameOver from './GameOver';
 import BackgroundImage from '../assets/background.png'
 import '../styles/Game.css';
+import '../styles/Background.css'
 export default function Game() {
   const {state,actions,dragHandlers,touchHandlers}=useGameState();
   const activeVal=state.queue[0];

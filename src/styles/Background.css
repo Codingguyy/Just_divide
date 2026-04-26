@@ -12,8 +12,6 @@
   background: var(--color-bubble);
 }
 .backgroundImage{
-  height : 100%;
-  width : 100%;
   object-fit : cover;
   position : absolute;
   overflow : hidden;
